@@ -1,0 +1,294 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body, .container {
+  background-color: #201943;
+  font-family: 'Noto Serif TC', serif;
+  color: whitesmoke;
+}
+
+nav {
+  background-image: linear-gradient( #0e021d, #201943);
+  margin-bottom: 15px;
+  font-family: 'Cinzel', serif;
+}
+
+.navbar-brand, .active {
+  color: ghostwhite;
+}
+
+.nav-link {
+  color: #bababa;
+}
+
+.nav-link:hover {
+  color: #bababa;
+}
+
+.navbar-brand:hover {
+  color: #d9d9d9;
+}
+
+.programmer {
+  background-position: center;
+  background-image: url(img/programming.jpg);
+  height: 358px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.musician {
+  background-position: center;
+  background-image: url(img/clar-tsax.webp);
+  height: 358px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thrower {
+  background-position: center;
+  background-image: url(img/disc-shot.jpg);
+  height: 358px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.me_photo {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.cat_photo {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.pup_pic {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.white {
+  color: ghostwhite;
+}
+
+.img-text-color {
+  background-color: #201943;
+}
+
+.soph {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  text-align: right;
+  width: 100%;
+}
+  
+.soph1 {
+  background-image: url(majorimg/stanleetribute.png);
+}
+  
+.soph2 {
+  background-image: url(majorimg/aboutme.png);
+}
+  
+.soph3 {
+  background-image: url(majorimg/howtobuildawesbsite.jpg);
+}
+  
+.soph4 {
+  background-image: url(majorimg/first10elements.png);
+}
+  
+.soph5 {
+  background-image: url(majorimg/farmers_market.png);
+}
+  
+.soph6 {
+  background-image: url(majorimg/jimhensontribute3.png);
+}
+
+.major_btn {
+  color: #949494;
+}
+
+.btn:hover {
+  box-shadow: 3px 3px 3px 3px black;
+}
+  
+span.underline {
+  text-decoration: underline;
+}
+  
+.card {
+  background-color: #2d235c;
+  margin: 1rem;
+  width: 18rem;
+}
+  
+.margin-bottom {
+  margin-bottom: 7px;
+}
+  
+.margin-top {
+  margin-top: 80px;
+}
+  
+h1.margin-top {
+ font-size: 60px; 
+}
+  
+.introduction {
+  position: relative;
+  left: 455rem;
+}
+  
+.introduction2 {
+  position: relative;
+  right: 470rem;
+}
+  
+.introduction3 {
+  position: relative;
+  left: 485rem;
+}
+  
+.introduction4 {
+  position: relative;
+  right: 500rem;
+}
+  
+.introduction5 {
+  position: relative;
+  left: 530rem;
+}
+  
+/*the below code is copied from https://www.sliderrevolution.com/resources/css-link-hover-effects/ and then converted to regular CSS*/
+  
+.wrapper-17:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #341967;
+    transform: scaleY(0);
+    transform-origin: bottom left;
+    transition: transform 0.2s;
+}
+  
+.wrapper-17:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #341967;
+    transform: scaleY(0);
+    transform-origin: top right;
+    transition: transform 0.2s 0.2s;
+}
+  
+.wrapper-17 .hover-17 {
+    padding: 10px;
+}
+  
+.wrapper-17 .hover-17:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #341967;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.2s 0.3s;
+}
+  
+.wrapper-17 .hover-17:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #341967;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.2s 0.1s;
+}
+  
+.wrapper-17:hover:before {
+    transform: scaleY(1);
+    transition: transform 0.2s 0.3s;
+}
+  
+.wrapper-17:hover:after {
+    transform: scaleY(1);
+    transition: transform 0.2s 0.1s;
+}
+
+.wrapper-17:hover .hover-17:before {
+    transform: scaleX(1);
+    transition: transform 0.2s;
+}
+  
+.wrapper-17:hover .hover-17:after {
+    transform: scaleX(1);
+    transition: transform 0.2s 0.2s;
+}
+  
+/*less CSS code stops*/
+
+.link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+  
+.link-wrapper {
+    position: relative;
+    display: block;
+}
+  
+.inner-wrapper {
+    position: relative;
+    display: inline-block;
+}
+  
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #341967;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+  
+#myBtn:hover {
+  background-color: #b19cd8;
+}
